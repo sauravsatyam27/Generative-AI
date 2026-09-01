@@ -11,3 +11,9 @@ new_person : Person = {
 }
 
 print(new_person)
+
+
+
+# Python doesn't enforce what keys should exist.
+
+# With TypedDict, you can define the expected structure:

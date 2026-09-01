@@ -11,7 +11,7 @@ model = ChatGoogleGenerativeAI(
 # Schema
 
 class Review(TypedDict):
-    summary : Annotated[str,"A breif summary of the review"] 
+    summary : Annotated[str,"A breif summary of the review"]   # name should be a string.
     ## sentiments : str
     sentiments : Annotated[str,"Return Sentiments of the review"]
 
