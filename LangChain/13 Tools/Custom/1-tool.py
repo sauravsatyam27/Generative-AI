@@ -3,7 +3,7 @@ from langchain_core.tools import tool
 
 @tool ## @tool tumhare normal Python function ko LangChain Tool object me convert karta hai.
 def multiply(a: int, b: int) -> int:
-    """Multiply two numbers."""
+    """ Multiply two numbers."""
     return a * b
 
 
